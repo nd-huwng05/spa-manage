@@ -2,7 +2,8 @@ from datetime import datetime
 from app.sdk.enviroment import environment
 from app.config import config
 from flask_cors import CORS
-from flask import render_template
+from flask import jsonify
+from app.router import router as home
 from rich.console import Console
 from rich.table import Table
 
@@ -15,6 +16,7 @@ class Server:
         self.config = config.get_global_config()
         self.set_up_middleware()
         self.set_up_health_check()
+        self.env.http.get_app().register_blueprint(home.interface)
 
     def start(self):
         self.__print_all_routes()
@@ -22,10 +24,6 @@ class Server:
 
     def set_up_middleware(self):
         app = self.env.http.get_app()
-
-        @app.errorhandler(Exception)
-        def handle_exception(e):
-            return {"error": str(e)}, 500
 
         CORS(app, resources={r"/*": {
             "origins": "*",
@@ -38,18 +36,17 @@ class Server:
         app = self.env.http.get_app()
         app.add_url_rule(
             "/health",
-            view_func=lambda: render_template(
-                "index.html",
-                status="ok",
-                message="Service is healthy",
-                timestamp=datetime.now().isoformat()
-            ),
+            view_func=lambda: jsonify({
+                "status": "ok",
+                "message": "Service is healthy",
+                "timestamp": datetime.now().isoformat()
+            }),
             methods=["GET"]
         )
 
     def __print_all_routes(self):
         console = Console()
-        table = Table(title="Registered Routes")
+        table = Table(title="SPA BEAUTIFULLY ROUTES")
 
         table.add_column("Methods", style="cyan", no_wrap=True)
         table.add_column("Path", style="green")

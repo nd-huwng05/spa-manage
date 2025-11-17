@@ -5,36 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9f456e7b-6fe8-478e-8450-78a51c0ceeea" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/app/config/config.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/main.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/sdk/db/mysql/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/sdk/db/mysql/mysql.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/sdk/enviroment/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/sdk/enviroment/environment.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/sdk/enviroment/http/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/sdk/enviroment/http/http.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/sdk/error/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/sdk/jwt/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/sdk/log/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/sdk/utils/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/server/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/server/server.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/templates/layout/base.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/templates/layout/footer.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/templates/layout/header.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/templates/page/error.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/templates/page/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/spa-manage.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/spa-manage.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/error/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/page/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/constant/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/sdk/db/db.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/sdk/base/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/sdk/enviroment/enviroment.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/sdk/base/base.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/sdk/log/log.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/sdk/log/log.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/server.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/sdk/config/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/templates/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/sdk/db/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/sdk/db/mysql/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/router/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/sdk/db/mysql/mysql.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/sdk/db/mysql.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/sdk/enviroment/environment.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/sdk/enviroment/environment.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/sdk/enviroment/http/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/router/router.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/sdk/enviroment/http/http.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/sdk/enviroment/http.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/sdk/log/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/sdk/log/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/sdk/log/log.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/sdk/log/logger.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/server/server.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/server/server.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -65,30 +44,31 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "DefaultHtmlFileTemplate": "HTML File",
-    "ModuleVcsDetector.initialDetectionPerformed": "true",
-    "Python.main.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "hung/base-code",
-    "ignore.virus.scanning.warn.message": "true",
-    "last_opened_file_path": "D:/CNPM/spa-manage",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;Python.main.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;hung/base-code&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/CNPM/spa-manage&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\CNPM\spa-manage\app\sdk\db" />
+      <recent name="D:\CNPM\spa-manage\app\sdk\enviroment" />
       <recent name="D:\CNPM\spa-manage\app\templates\page" />
       <recent name="D:\CNPM\spa-manage\app\templates" />
       <recent name="D:\CNPM\spa-manage\app" />
-      <recent name="D:\CNPM\spa-manage" />
     </key>
   </component>
   <component name="RunManager">
@@ -513,6 +493,7 @@
       <workItem from="1762273665210" duration="54000" />
       <workItem from="1763256872663" duration="8189000" />
       <workItem from="1763315276394" duration="7178000" />
+      <workItem from="1763347106935" duration="7751000" />
     </task>
     <servers />
   </component>
@@ -520,6 +501,6 @@
     <option name="version" value="3" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/spa_manage$main.coverage" NAME="main Coverage Results" MODIFIED="1763322511221" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/app" />
+    <SUITE FILE_PATH="coverage/spa_manage$main.coverage" NAME="main Coverage Results" MODIFIED="1763356561645" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/app" />
   </component>
 </project>

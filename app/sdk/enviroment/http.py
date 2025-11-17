@@ -4,6 +4,9 @@ from rich.console import Console
 from rich.table import Table
 from flask import Flask
 
+import app
+
+
 class HTTP:
     __env : str
     __host : str
@@ -31,7 +34,10 @@ class HTTP:
         signal.signal(signal.SIGINT, self.__stop)
 
         print(f"Starting HTTP server on port {self.__port}...")
-        self.app.run(host=self.__host, port=int(self.__port))
+
+        with self.app.app_context():
+            self.app.run(host=self.__host, port=int(self.__port))
 
     def __stop(self, *args):
         print("Gracefully shutting down Flask server...")
+        exit(0)
