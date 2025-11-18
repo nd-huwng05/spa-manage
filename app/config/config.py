@@ -1,12 +1,5 @@
 import os
-from dataclasses import dataclass
-
-@dataclass
-class Config:
-    jwt_secret: str
-    access_token_expire: int
-    refresh_token_expire: int
-
+from app.sdk.config.config import Config
 
 def get_global_config() -> Config:
     jwt_secret = os.getenv("JWT_SECRET_KEY")

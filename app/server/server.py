@@ -1,5 +1,6 @@
 from datetime import datetime
-from app.sdk.enviroment import environment
+from app.modules.user import module as user_module
+from app.sdk import environment, config
 from app.config import config
 from flask_cors import CORS
 from flask import jsonify
@@ -17,6 +18,7 @@ class Server:
         self.set_up_middleware()
         self.set_up_health_check()
         self.env.http.get_app().register_blueprint(home.interface)
+        self.user_module = user_module.UserModule(self.config, self.env)
 
     def start(self):
         self.__print_all_routes()

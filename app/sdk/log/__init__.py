@@ -1,3 +1,3 @@
-from app.sdk.log import logger
+from ..log import logger
 
 log = logger.Logger("SPA")

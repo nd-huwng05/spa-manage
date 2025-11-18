@@ -1,9 +1,8 @@
 import os
 from flask import Flask
-from app.sdk.enviroment import http
-from app.sdk.db import mysql
-from app.sdk.base import base
-from app.sdk.log import log
+from .http import http
+from ..db import mysql
+from ..base import base
 
 class Environment:
     http : http.HTTP
