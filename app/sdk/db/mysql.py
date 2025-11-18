@@ -2,7 +2,7 @@ import os
 from flask_sqlalchemy import SQLAlchemy
 from flask import Flask
 from sqlalchemy.sql.expression import text
-from app.sdk.log import log
+from ..log import log
 
 class MySQLDB:
     _db : SQLAlchemy

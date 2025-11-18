@@ -2,7 +2,6 @@ import os
 import sys
 from datetime import datetime
 
-
 class Logger:
     def __init__(self, service_name=""):
         self.service = service_name

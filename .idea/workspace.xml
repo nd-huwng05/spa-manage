@@ -5,15 +5,35 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9f456e7b-6fe8-478e-8450-78a51c0ceeea" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/app/modules/user/constant/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/modules/user/handler/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/modules/user/interface/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/modules/user/templates/static/base.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/sdk/config/config.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/sdk/enviroment/http/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/sdk/layout/header.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/sdk/db/mysql/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/router/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/sdk/db/mysql/mysql.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/sdk/db/mysql.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/config/config.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/config/config.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/modules/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/modules/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/modules/user/components/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/modules/user/templates/components/base.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/modules/user/config/config.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/modules/user/config/config.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/modules/user/interface/router.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/modules/user/interface/router.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/modules/user/module.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/modules/user/module.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/modules/user/repository/repository.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/modules/user/repository/repository.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/modules/user/service/service.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/modules/user/service/service.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/modules/user/static/base.css" beforeDir="false" afterPath="$PROJECT_DIR$/app/modules/user/config/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/modules/user/template/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/modules/user/templates/page/login.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/sdk/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/sdk/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/sdk/db/mysql.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/sdk/db/mysql.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/sdk/enviroment/environment.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/sdk/enviroment/environment.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/sdk/enviroment/http/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/router/router.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/sdk/enviroment/http/http.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/sdk/enviroment/http.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/sdk/enviroment/http.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/sdk/enviroment/http/http.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/sdk/log/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/sdk/log/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/sdk/log/log.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/sdk/log/logger.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/sdk/log/logger.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/sdk/log/logger.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/server/server.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/server/server.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/templates/layout/base.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/templates/layout/footer.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/templates/layout/header.html" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -64,11 +84,11 @@
 }</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\CNPM\spa-manage\app\modules\user\templates" />
+      <recent name="D:\CNPM\spa-manage\app\sdk\enviroment\http" />
+      <recent name="D:\CNPM\spa-manage\app\modules\user\templates\page" />
       <recent name="D:\CNPM\spa-manage\app\sdk\db" />
       <recent name="D:\CNPM\spa-manage\app\sdk\enviroment" />
-      <recent name="D:\CNPM\spa-manage\app\templates\page" />
-      <recent name="D:\CNPM\spa-manage\app\templates" />
-      <recent name="D:\CNPM\spa-manage\app" />
     </key>
   </component>
   <component name="RunManager">
@@ -494,6 +514,9 @@
       <workItem from="1763256872663" duration="8189000" />
       <workItem from="1763315276394" duration="7178000" />
       <workItem from="1763347106935" duration="7751000" />
+      <workItem from="1763360464959" duration="5040000" />
+      <workItem from="1763383781119" duration="816000" />
+      <workItem from="1763420292311" duration="1667000" />
     </task>
     <servers />
   </component>
@@ -501,6 +524,6 @@
     <option name="version" value="3" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/spa_manage$main.coverage" NAME="main Coverage Results" MODIFIED="1763356561645" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/app" />
+    <SUITE FILE_PATH="coverage/spa_manage$main.coverage" NAME="main Coverage Results" MODIFIED="1763420937149" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/app" />
   </component>
 </project>
