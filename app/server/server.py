@@ -14,15 +14,19 @@ class Server:
 
     def __init__(self):
         self.env = environment.Environment()
+        self.env.init()
         self.config = config.get_global_config()
         self.set_up_middleware()
         self.set_up_health_check()
         self.env.http.get_app().register_blueprint(home.interface)
-        self.user_module = user_module.UserModule(self.config, self.env)
+        self.user_module = user_module.UserModule(self.env, self.config)
 
     def start(self):
         self.__print_all_routes()
         self.env.http.start()
+
+    def create_db(self):
+        self.env.mySQL.db.create_all()
 
     def set_up_middleware(self):
         app = self.env.http.get_app()

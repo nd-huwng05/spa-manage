@@ -5,35 +5,81 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9f456e7b-6fe8-478e-8450-78a51c0ceeea" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/app/modules/user/constant/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/modules/user/handler/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/modules/user/interface/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/modules/user/templates/static/base.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/sdk/config/config.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/sdk/enviroment/http/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/sdk/layout/header.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/modules/user/interface/controller.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/modules/user/interface/routes.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/sdk/environment/http/http.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/sdk/templates/assets/css/main.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/sdk/templates/assets/img/about/about-15.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/sdk/templates/assets/img/about/about-square-15.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/sdk/templates/assets/img/apple-touch-icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/sdk/templates/assets/img/bg/abstract-bg-3.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/sdk/templates/assets/img/favicon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/sdk/templates/assets/img/logo.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/sdk/templates/assets/img/person/person-f-10.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/sdk/templates/assets/img/person/person-f-11.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/sdk/templates/assets/img/person/person-f-13.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/sdk/templates/assets/img/person/person-f-2.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/sdk/templates/assets/img/person/person-f-3.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/sdk/templates/assets/img/person/person-f-5.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/sdk/templates/assets/img/person/person-f-7.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/sdk/templates/assets/img/person/person-m-14.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/sdk/templates/assets/img/person/person-m-15.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/sdk/templates/assets/img/person/person-m-2.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/sdk/templates/assets/img/person/person-m-5.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/sdk/templates/assets/img/person/person-m-7.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/sdk/templates/assets/img/person/person-m-8.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/sdk/templates/assets/img/portfolio/portfolio-1.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/sdk/templates/assets/img/portfolio/portfolio-10.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/sdk/templates/assets/img/portfolio/portfolio-11.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/sdk/templates/assets/img/portfolio/portfolio-3.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/sdk/templates/assets/img/portfolio/portfolio-4.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/sdk/templates/assets/img/portfolio/portfolio-5.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/sdk/templates/assets/img/portfolio/portfolio-7.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/sdk/templates/assets/img/portfolio/portfolio-8.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/sdk/templates/assets/img/portfolio/portfolio-9.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/sdk/templates/assets/img/portfolio/portfolio-portrait-5.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/sdk/templates/assets/img/portfolio/portfolio-portrait-8.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/sdk/templates/assets/img/services/services-11.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/sdk/templates/assets/img/services/services-2.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/sdk/templates/assets/img/services/services-7.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/sdk/templates/assets/img/services/services-8.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/sdk/templates/assets/js/main.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/sdk/templates/page/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flask_cli.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/config/config.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/config/config.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/.env.example" beforeDir="false" afterPath="$PROJECT_DIR$/.env.example" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/main.py" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/app/modules/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/modules/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/modules/user/components/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/modules/user/templates/components/base.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/modules/user/config/config.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/modules/user/config/config.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/modules/user/interface/router.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/modules/user/interface/router.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/modules/user/handler/handler.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/modules/user/handler/handler.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/modules/user/interface/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/modules/user/interface/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/modules/user/interface/conntroller.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/sdk/logger/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/modules/user/interface/router.py" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/app/modules/user/module.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/modules/user/module.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/modules/user/repository/model/user.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/modules/user/repository/model/user.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/modules/user/repository/repository.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/modules/user/repository/repository.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/modules/user/service/service.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/modules/user/service/service.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/modules/user/static/base.css" beforeDir="false" afterPath="$PROJECT_DIR$/app/modules/user/config/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/modules/user/template/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/modules/user/templates/page/login.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/router/router.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/router/router.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/sdk/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/sdk/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/sdk/db/mysql.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/sdk/db/mysql.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/sdk/enviroment/environment.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/sdk/enviroment/environment.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/sdk/enviroment/http.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/sdk/enviroment/http/http.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/sdk/log/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/sdk/log/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/sdk/log/logger.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/sdk/log/logger.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/sdk/base/base.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/sdk/base/base.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/sdk/db/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/modules/user/repository/model/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/sdk/db/mysql.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/sdk/database/mysql.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/sdk/enviroment/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/sdk/database/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/sdk/enviroment/environment.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/sdk/environment/environment.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/sdk/enviroment/http/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/sdk/environment/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/sdk/enviroment/http/http.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/sdk/jwt/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/sdk/environment/http/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/sdk/jwt/jwt.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/sdk/jwt/jwt.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/sdk/layout/header.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/sdk/templates/layout/header.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/sdk/log/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/sdk/log/logger.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/sdk/logger/logger.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/server/server.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/server/server.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/templates/layout/base.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/templates/layout/footer.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/templates/layout/header.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/templates/page/error.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/templates/page/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/sdk/templates/layout/base.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/requirement.txt" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,6 +89,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="CSS File" />
+        <option value="JavaScript File" />
         <option value="HTML File" />
         <option value="Python Script" />
       </list>
@@ -73,7 +121,8 @@
     &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
     &quot;git-widget-placeholder&quot;: &quot;hung/base-code&quot;,
     &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/CNPM/spa-manage&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/CNPM/spa-manage/app/sdk/templates&quot;,
+    &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
@@ -83,12 +132,15 @@
   }
 }</component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\CNPM\spa-manage\app\sdk\templates" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\CNPM\spa-manage\app\modules\user\templates" />
-      <recent name="D:\CNPM\spa-manage\app\sdk\enviroment\http" />
-      <recent name="D:\CNPM\spa-manage\app\modules\user\templates\page" />
-      <recent name="D:\CNPM\spa-manage\app\sdk\db" />
-      <recent name="D:\CNPM\spa-manage\app\sdk\enviroment" />
+      <recent name="D:\CNPM\spa-manage" />
+      <recent name="D:\CNPM\spa-manage\app\sdk\templates\page" />
+      <recent name="D:\CNPM\spa-manage\app\sdk\templates" />
+      <recent name="D:\CNPM\spa-manage\app\sdk" />
+      <recent name="D:\CNPM\spa-manage\app\sdk\templates\layout" />
     </key>
   </component>
   <component name="RunManager">
@@ -398,7 +450,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="D:\CNPM\spa-manage\app\main.py" />
+      <option name="SCRIPT_NAME" value="D:\CNPM\spa-manage\main.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -517,6 +569,12 @@
       <workItem from="1763360464959" duration="5040000" />
       <workItem from="1763383781119" duration="816000" />
       <workItem from="1763420292311" duration="1667000" />
+      <workItem from="1763450264272" duration="9341000" />
+      <workItem from="1763503786892" duration="9000" />
+      <workItem from="1763504516501" duration="6519000" />
+      <workItem from="1763566363292" duration="13883000" />
+      <workItem from="1763613165415" duration="5058000" />
+      <workItem from="1763620831600" duration="7685000" />
     </task>
     <servers />
   </component>
@@ -524,6 +582,6 @@
     <option name="version" value="3" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/spa_manage$main.coverage" NAME="main Coverage Results" MODIFIED="1763420937149" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/app" />
+    <SUITE FILE_PATH="coverage/spa_manage$main.coverage" NAME="main Coverage Results" MODIFIED="1763628464730" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/app" />
   </component>
 </project>
