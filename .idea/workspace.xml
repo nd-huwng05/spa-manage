@@ -5,81 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9f456e7b-6fe8-478e-8450-78a51c0ceeea" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/app/modules/user/interface/controller.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/modules/user/interface/routes.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/sdk/environment/http/http.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/sdk/templates/assets/css/main.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/sdk/templates/assets/img/about/about-15.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/sdk/templates/assets/img/about/about-square-15.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/sdk/templates/assets/img/apple-touch-icon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/sdk/templates/assets/img/bg/abstract-bg-3.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/sdk/templates/assets/img/favicon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/sdk/templates/assets/img/logo.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/sdk/templates/assets/img/person/person-f-10.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/sdk/templates/assets/img/person/person-f-11.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/sdk/templates/assets/img/person/person-f-13.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/sdk/templates/assets/img/person/person-f-2.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/sdk/templates/assets/img/person/person-f-3.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/sdk/templates/assets/img/person/person-f-5.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/sdk/templates/assets/img/person/person-f-7.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/sdk/templates/assets/img/person/person-m-14.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/sdk/templates/assets/img/person/person-m-15.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/sdk/templates/assets/img/person/person-m-2.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/sdk/templates/assets/img/person/person-m-5.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/sdk/templates/assets/img/person/person-m-7.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/sdk/templates/assets/img/person/person-m-8.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/sdk/templates/assets/img/portfolio/portfolio-1.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/sdk/templates/assets/img/portfolio/portfolio-10.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/sdk/templates/assets/img/portfolio/portfolio-11.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/sdk/templates/assets/img/portfolio/portfolio-3.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/sdk/templates/assets/img/portfolio/portfolio-4.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/sdk/templates/assets/img/portfolio/portfolio-5.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/sdk/templates/assets/img/portfolio/portfolio-7.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/sdk/templates/assets/img/portfolio/portfolio-8.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/sdk/templates/assets/img/portfolio/portfolio-9.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/sdk/templates/assets/img/portfolio/portfolio-portrait-5.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/sdk/templates/assets/img/portfolio/portfolio-portrait-8.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/sdk/templates/assets/img/services/services-11.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/sdk/templates/assets/img/services/services-2.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/sdk/templates/assets/img/services/services-7.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/sdk/templates/assets/img/services/services-8.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/sdk/templates/assets/js/main.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/sdk/templates/page/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flask_cli.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/spa-manage.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/spa-manage.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/.env.example" beforeDir="false" afterPath="$PROJECT_DIR$/.env.example" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/main.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/modules/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/modules/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/modules/user/config/config.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/modules/user/config/config.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/modules/user/handler/handler.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/modules/user/handler/handler.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/modules/user/interface/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/modules/user/interface/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/modules/user/interface/conntroller.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/sdk/logger/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/modules/user/interface/router.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/modules/user/module.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/modules/user/module.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/modules/user/repository/model/user.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/modules/user/repository/model/user.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/modules/user/repository/repository.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/modules/user/repository/repository.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/modules/user/service/service.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/modules/user/service/service.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/router/router.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/router/router.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/sdk/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/sdk/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/sdk/base/base.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/sdk/base/base.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/sdk/db/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/modules/user/repository/model/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/sdk/db/mysql.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/sdk/database/mysql.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/sdk/enviroment/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/sdk/database/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/sdk/enviroment/environment.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/sdk/environment/environment.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/sdk/enviroment/http/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/sdk/environment/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/sdk/enviroment/http/http.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/sdk/jwt/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/sdk/environment/http/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/sdk/jwt/jwt.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/sdk/jwt/jwt.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/sdk/layout/header.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/sdk/templates/layout/header.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/sdk/log/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/sdk/log/logger.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/sdk/logger/logger.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/server/server.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/server/server.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/templates/page/error.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/templates/page/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/sdk/templates/layout/base.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/requirement.txt" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -112,25 +40,27 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
-    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
-    &quot;Python.main.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;hung/base-code&quot;,
-    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/CNPM/spa-manage/app/sdk/templates&quot;,
-    &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "DefaultHtmlFileTemplate": "HTML File",
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "Python.main (1).executor": "Run",
+    "Python.main.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "master",
+    "ignore.virus.scanning.warn.message": "true",
+    "last_opened_file_path": "D:/CNPM/spa-manage/app/sdk/templates",
+    "list.type.of.created.stylesheet": "CSS",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\CNPM\spa-manage\app\sdk\templates" />
@@ -143,7 +73,28 @@
       <recent name="D:\CNPM\spa-manage\app\sdk\templates\layout" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Python.main (1)">
+    <configuration default="true" type="DjangoTestsConfigurationType">
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="TARGET" value="" />
+      <option name="SETTINGS_FILE" value="" />
+      <option name="CUSTOM_SETTINGS" value="false" />
+      <option name="USE_OPTIONS" value="false" />
+      <option name="OPTIONS" value="" />
+      <method v="2" />
+    </configuration>
     <configuration default="true" type="DjangoTestsConfigurationType">
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -230,6 +181,20 @@
       <option name="MODULE_MODE" value="false" />
       <option name="REDIRECT_INPUT" value="false" />
       <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="Python.FlaskServer">
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="launchJavascriptDebuger" value="false" />
       <method v="2" />
     </configuration>
     <configuration default="true" type="Python.FlaskServer">
@@ -392,27 +357,6 @@
       <option name="USE_PATTERN" value="false" />
       <method v="2" />
     </configuration>
-    <configuration default="true" type="DjangoTestsConfigurationType">
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="TARGET" value="" />
-      <option name="SETTINGS_FILE" value="" />
-      <option name="CUSTOM_SETTINGS" value="false" />
-      <option name="USE_OPTIONS" value="false" />
-      <option name="OPTIONS" value="" />
-      <method v="2" />
-    </configuration>
     <configuration default="true" type="PythonConfigurationType" factoryName="Python">
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -428,6 +372,29 @@
       <module name="" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="main (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="spa-manage" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/main.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -457,20 +424,6 @@
       <option name="MODULE_MODE" value="false" />
       <option name="REDIRECT_INPUT" value="false" />
       <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration default="true" type="Python.FlaskServer">
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="launchJavascriptDebuger" value="false" />
       <method v="2" />
     </configuration>
     <configuration default="true" type="Tox" factoryName="Tox">
@@ -541,6 +494,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.main (1)" />
         <item itemvalue="Python.main" />
       </list>
     </recent_temporary>
@@ -548,8 +502,7 @@
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-js-predefined-d6986cc7102b-6a121458b545-JavaScript-PY-251.25410.159" />
-        <option value="bundled-python-sdk-e0ed3721d81e-36ea0e71a18c-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-251.25410.159" />
+        <option value="bundled-python-sdk-4e2b1448bda8-9a97661f3031-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-252.27397.106" />
       </set>
     </attachedChunks>
   </component>

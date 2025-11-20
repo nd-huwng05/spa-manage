@@ -8,3 +8,4 @@ db = srv.env.http.db
 migrate = Migrate(app, db)
 
 __all__ = ["app"]
+
