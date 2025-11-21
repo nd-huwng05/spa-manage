@@ -1,10 +1,6 @@
 
 from flask_migrate import Migrate
-from app import srv
-from app.modules.user.repository.model.user import User, Staff, UserAuthMethod
+from app import app, db
+from app.modules.user.repository.model import *
 
-app = srv.env.http.get_app()
-db = srv.env.http.db
 migrate = Migrate(app, db)
-
-__all__ = ["app"]

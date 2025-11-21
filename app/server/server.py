@@ -1,6 +1,6 @@
 from datetime import datetime
 from app.modules.user import module as user_module
-from app.sdk import environment, config
+from app.sdk.environment import environment
 from app.config import config
 from flask_cors import CORS
 from flask import jsonify
@@ -24,9 +24,6 @@ class Server:
     def start(self):
         self.__print_all_routes()
         self.env.http.start()
-
-    def create_db(self):
-        self.env.mySQL.db.create_all()
 
     def set_up_middleware(self):
         app = self.env.http.get_app()
