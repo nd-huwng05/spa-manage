@@ -2,7 +2,6 @@ import os
 from flask import Flask
 from .http import http
 from ..jwt import jwt
-from ..database import mysql
 from ..base import base
 
 class Environment:
